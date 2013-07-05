@@ -1,0 +1,25 @@
+<head>
+<script type="text/javascript" src="l4t3ncy.js"></script>
+<title>l4t3ncy</title>
+</head>
+<body>
+
+<script>
+
+var speedtest = new l4t3ncy();
+speedtest.run({
+			
+    onEnd: function(speed) {
+		    
+		document.write( 'Speed Test Complete:  ' + Math.floor(speed.Kbps) + ' Kbps');
+		
+		if (speed.Kbps < 200) {
+            //alert('Your connection is too slow');
+        }
+    }
+});
+
+</script>
+
+</body>
+</html>
