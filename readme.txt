@@ -5,8 +5,6 @@
 | |___\___  | | | .___/ / |\  | \__/\ | |  
 \_____/   |_/ \_/ \____/\_| \_/\____/ \_/  
 
-=====
-
 speed test connection detection algorithm for html5 & javascript.
 
 all code copyright SPUTN1K
